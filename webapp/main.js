@@ -10,3 +10,7 @@ function startMining() {
     }, 1000);
   }
 }
+
+window.onload = function () {
+  startMining();
+};
